@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    /*font-family: 'Cardo', serif;
+    font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+h1,h2,h3,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+a,a:hover{
+    text-decoration:none;
+}
+img{
+    width:100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/*======= Common CSS End =======*/
+.header_area{
+    background:url('img/activebox-bg.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+}
+.header_top{
+    padding:40px 0;
+}
+.header_top .header_left{}
+.header_top .header_left .logo{}
+.header_top .header_right{}
+.header_top .header_right .menu{}
+.header_top .header_right .menu ul{
+    text-align: right;
+}
+.header_top .header_right .menu ul li{
+    display: inline-block;
+    margin-right:18px;
+}
+.header_top .header_right .menu ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color:#fff;
+}
+
+.header_bottom{}
+.header_content{
+    padding:80px 0px 80px 0px;
+}
+.header_content .header_title{
+}
+.header_content .header_title h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:65px;
+    color:#fff;
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:center;
+}
+.header_content .header_title p{
+    font-family: 'Raleway', sans-serif;
+    font-size:22px;
+    color:#fff;
+    text-align:center;
+
+}
+.header_content .h-btn{
+    text-align: center;
+    padding-top:80px;
+}
+.header_content .h-btn a{
+    padding: 15px 50px;
+    background:#e84545;
+    color:#fff;
+    border-radius:5px;
+    font-size:13px;
+    text-transform:uppercase;
+    font-weight:600;
+    display: inline-block;
+    transition:.5s;
+}
+.header_content .h-btn a:hover{
+    background:#66697e;
+}
+
+/*======= Header CSS End =======*/
+
+.feature_area{
+    padding:125px 0;
+    width:100%;
+}
+.feature_items{
+    text-align: center;
+}
+.feature_items img{
+    width:50px;
+    height:50px;
+}
+.feature_items h4{
+    font-size:14px;
+    color:#2d3033;
+    font-weight: 700;
+    text-transform:uppercase;
+    margin-top: 25px;
+}
+.feature_items p{
+    font-size:14px;
+    color:#6c7279;
+    margin-top: 18px;
+}
+.fmt{
+    margin-top:70px;
+}
+
+/*======= Features CSS End =======*/
+
+.work_area{
+
+}
+.work_items_area{
+
+}
+.work_items_area .work_item{
+    position:relative;
+}
+.work_items_area .work_item img{
+    width:338px;
+    height: 300px;
+}
+.work_items_area .work_overlay{
+    width:100%;
+    height:100%;
+    background:rgba(232, 69, 69, 0.9);
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:.5s;
+
+}
+.work_items_area .work_overlay:hover{
+    opacity: 1;
+}
+.work_overlay .work_content{
+    text-align:center;
+}
+.work_overlay .work_content h4{
+    font-size:14px;
+    color:#fff;
+    font-weight:700;
+}
+.work_overlay .work_content span{
+    font-size:14px;
+    color:#fff;
+}
+.w-mr-0{
+    margin:0;
+    padding:0;
+}
+
+/*======= Work CSS End =======*/
+
+.team_area{
+    padding:100px 0;
+}
+.team_member{}
+.team_member .teams{}
+.team_member .teams img{}
+.team_member .teams h4{
+    font-size:22px;
+    color:#2d3033;
+    margin-top:30px;
+}
+.team_member .teams span{
+    font-size:13px;
+    color:#e84545;
+    margin-top:15px;
+}
+.team_member .teams p{
+    font-size:14px;
+    color:#6c7279;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.team_member .team_social_icon{
+   
+}
+.team_member .team_social_icon ul{
+   
+}
+.team_member .team_social_icon ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.team_member .team_social_icon ul li a{
+    background:#fff;
+    padding:10px 20px;
+    color:#c6cacc;
+    border:1px solid #e8ecee;
+    display: inline-block;
+    transition:.5s;
+}
+.team_member .team_social_icon ul li a:hover{
+    background:#c6cacc;
+    color:#fff;
+}
+/*======= Team Member CSS End =======*/
+.testimonial_area{
+   
+}
+.testimonial_bg{
+    background: #53354a;
+    width: 100%;
+    height: 100%;
+}
+.testimonial_content{}
+.testimonial_content p{
+    width:70%;
+    color:#fff;
+    font-family: 'Cardo', serif;
+    font-size:36px;
+    padding: 57px 0px 40px 56px;
+}
+.testimonial_content span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:13px;
+    color:#fff;
+}
+/*======= Testimonial CSS End =======*/
+.download_area{
+    padding:80px;
+}
+.download_content{
+    text-align: center;
+}
+.download_content h2{
+    font-size:28px;
+    color:#2d3033;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.download_content h4{
+    font-size:13px;
+    color:#2d3033;
+    text-transform:uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.download_content a {
+	padding: 20px 60px;
+	background: #e84545;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	display: inline-block;
+    border-radius: 5px;
+    transition:.5s;
+}
+.download_content a:hover{
+    background:#66697e;
+}
+/*======= Download CSS End =======*/
+.footer_area{
+    background:#3a3e64;
+    padding:70px 50px 110px;
+}
+.footer_top{
+   
+   
+}
+.footer_content{
+    text-align: center;
+}
+.footer_content h4{
+    font-size:14px;
+    color:#fff;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.footer_content p {
+	width: 176px;
+	font-size: 14px;
+	color: #fff;
+	opacity: .5;
+	margin: 0 auto;
+}
+
+.footer_social{
+    text-align:center;
+}
+.footer_social ul{
+}
+.footer_social li{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    border:1px solid #fff;
+    line-height: 40px;
+    margin-right: 5px;
+    transition:.5s;
+}
+.footer_social li:hover{
+    background:#e84545;
+}
+.footer_social li a{
+    color:#fff;
+}
+.footer_bottom{
+    background:#313454;
+    padding:30px 0;
+}
+.footer_botom_con{
+    text-align: center;
+}
+.footer_botom_con p{
+    font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.footer_botom_con span a{
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    transition: .3s;
+}
+.footer_botom_con span a:hover{
+    color:#e84545;
+}
+.footer_content_about{}
+.footer_content_about h4{
+    font-size:14px;
+    color:#fff;
+    font-weight:700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer_content_about p{
+    font-size: 14px;
+    text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+}
+/*======= Footer CSS End =======*/
